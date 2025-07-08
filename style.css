@@ -1,0 +1,255 @@
+
+
+
+
+
+
+.left{
+    background-color: rgb(11, 0, 0);
+   
+}
+#logo1{
+    width: 130px;
+    height: 130px;
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    margin-left: 65px;
+    position: fixed;
+}
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  padding: 80px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.hero:before {
+  content: "";
+  background: color-mix(in srgb, var(--background-color), transparent 70%);
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+}
+
+.hero .container {
+  position: relative;
+  z-index: 3;
+}
+
+.hero h2 {
+  margin: 0;
+  font-size: 64px;
+  font-weight: 700;
+  color: rgb(51, 33, 12);
+}
+
+.hero p {
+  margin: 5px 0 0 0;
+  font-size: 26px;
+}
+
+.hero p span {
+  letter-spacing: 1px;
+  border-bottom: 2px solid var(--accent-color);
+}
+
+.hero .social-links {
+  margin-top: 25px;
+}
+
+.hero .social-links a {
+  font-size: 24px;
+  display: inline-block;
+  color: color-mix(in srgb, var(--default-color), transparent 50%);
+  line-height: 1;
+  margin-right: 20px;
+  transition: 0.3s;
+}
+
+.hero .social-links a:hover {
+  color: var(--accent-color);
+}
+
+@media (max-width: 768px) {
+  .hero h2 {
+    font-size: 32px;
+  }
+
+  .hero p {
+    font-size: 20px;
+  }
+}
+.icon{
+    text-align: center;
+    font-size: 35px;
+    text-decoration: none;
+    margin-top: 200px;
+    position: absolute;
+    margin-left: 60px;
+    color: brown;
+    position: fixed;
+    
+    
+}
+.icon a{
+    margin:10px;
+    color: aliceblue;
+    
+}
+   
+.left{
+    color: rgb(13, 2, 2);
+    display: flex;
+    float: left;
+    position: fixed;
+}
+
+#h1name{color: rgb(235, 228, 228);
+font-size: 60px;
+position:absolute;
+margin-top: 120px;
+margin-left: 70px;
+font-weight: 900;
+font-family: 'Courier New', Courier, monospace;
+position: fixed;
+}
+.sidebar ul{
+    list-style: none;
+    padding: 0 0 20px 0;
+    margin: 0;
+
+}
+.sidebar a{
+      padding: 15px 10px;
+  font-size: 30px;
+  font-weight: 400;
+  align-items: center;
+  margin-top: 20px;
+  color: aliceblue;
+  position: relative;
+  display: flex;
+  border: 8px solid white;
+  border-radius: 20px;
+
+}
+.sidebar{
+    margin-top: 240px;
+    position: fixed;
+}
+#abouth1{
+  text-align: center;
+  font-size: 32px;
+  font-weight: 800;
+}
+#abouth1 li{
+  list-style: none;
+}
+.myabout{
+  width: 250px;
+  height: 250px;
+}
+#whatido{
+  font-size: 40px;
+  text-align: center;
+  
+}
+#abo{
+  text-align: center;
+  text-decoration: underline;
+}
+.myother{
+  font-size: 20px;
+   margin-left: 300px;
+   margin-top: -250px;
+   
+}
+.myother ul{
+  margin-bottom: 30px;
+  list-style: none;
+}
+.myother li {
+  margin: 20px;
+  border: 5px solid black;
+  border-radius: 30px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  
+}
+.education{
+  position: relative;
+  margin-left: 380px;
+  overflow: auto;
+  
+}
+.col-3{ background-color: black;
+  
+  overflow: auto;
+ 
+
+}
+.myskil{
+  margin-left: 430px;
+  margin-top: -180px;
+}
+.star{
+  margin-left: 140px;
+  margin-top: -140px;
+  
+}
+.star li {
+  list-style: none;
+}
+#edu{
+  text-align: center;
+  font-weight: 700;
+  
+}
+.contact{
+  text-align: left;
+
+}
+.form{
+  text-align:center;
+  margin-top: -250px;
+}
+.form input{
+  border: 2px solid black;
+  border-radius: 15px;
+  font-size: 25px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+.form input:hover{
+  color: rgb(172, 130, 75);
+}
+#con{
+  text-align: center;
+  font-weight: 800;
+}
+#message{
+  border: 2px solid black;
+  border-radius: 15px;
+  font-size: 25px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+button{
+  font-size: 25px;
+  padding: 10px;
+  background-color: aqua;
+  border: 2px solid black;
+  border-radius: 40px;
+}
